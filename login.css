@@ -1,0 +1,58 @@
+
+.login{
+    width: 50%;
+    margin:auto;
+    background-color: rgba(255,255,255,0.08);
+    border-radius: 1px;
+    box-shadow: 7px 13px 37px rgb(3, 8, 78);
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family: Verdana;
+}
+.login h3{
+    margin:0;
+    text-align: center;
+    height: 100%;
+    font-size: 2vw;
+}
+.controls{
+    border: 1px solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.20);
+    width: 100%;
+    height: 50%;
+    font-size: 2vw;
+    margin: 20px 0px;
+    border-radius: 5px;
+
+}
+.button{
+    border: 1px solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    width: 20%;
+    height: 10%;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.4);
+    width: 100%;
+}
+
+.titulo{
+    font-size: 4vw;
+    left: 20%;
+}
+
+.forget{
+    font-size: 1.2vw;
+}
+
+.register{
+    font-size: 1.2vw;
+}
+

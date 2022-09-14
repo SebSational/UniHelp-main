@@ -1,0 +1,45 @@
+
+body {
+    background-color: #000;
+    background-size: 100%;
+  }
+
+.logo{
+    position: relative;
+    width: 50%;
+    left: 25%;
+    
+
+}
+.hero__title {
+    position: relative;
+    color: #fff;
+    width: 50%;
+    margin:auto;
+    font-size: 4vw;
+    z-index: 1;
+    left: 13.5%;
+   
+
+}
+.home-content{
+    position: static;
+    width: 70%;
+    margin:auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    box-shadow: 7% 13% 37% black;
+    
+}
+.button{
+    position: relative;
+    margin:auto;
+    border: 1px solid whitesmoke;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 1vw;
+    left: 31%;
+    width: 20%;
+    height: 8%;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1.6vw;
+}

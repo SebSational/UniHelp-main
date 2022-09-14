@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <form class="register" id="formulario">
+        <h2>registro</h2>
+        <input class="controls" type="text" name="username" id="usuario" placeholder="USUARIO">
+        <p class="error" id="usuarioError">el usuario debe tener al menos un caracter, no se admiten caracteres especiales</p>
+        <br>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="NOMBRES">
+        <p class="error" id="nombresError">no se admiten caracteres especiales</p>
+        <br>
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="APELLIDOS">
+        <p class="error" id="apellidosError">no se admiten caracteres especiales</p>
+        <br>
+        <input class="controls" type="email" name="email" id="email" placeholder="CORREO ELECTRÓNICO">
+        <p class="error" id="emailError">por favor digíte un correo electrónico válido ejemplo: "sujeto123@ejemplo.com"</p>
+        <br>
+        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="CONTRASEÑA">
+        <p class="error" id="contraseñaError">la contraseña debe tener un mínimo de 6 caracteres y al menos: una mayúscula,minúscula, símbolo y número</p>
+        <br>
+        <input class="controls" type="password" name="contraseña2" id="contraseña2" placeholder="CONFIRMAR CONTRASEÑA">
+        <p class="error" id="contraseña2Error">la contraseña no es la misma</p>
+        <br>
+        <label>
+            <input type="checkbox" id="term">
+            acepto los términos y condiciones
+        </label>
+        <br>
+        <button type="submit" class="button">registrarse</button>
+        <p class="error" id="incorrecto">Por favor llene todos los espacios correctamente</p>
+        <p class="correcto" id="correcto">el fomulario se ha enviado correctamente</p>
+        <br>
+        <p><a href="login.html">¿Ya tienes cuenta?</a></p>
+    </form>
+    <div class="hero"> 
+        <div class="hero__title"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+      <script src="register.js"></script>
+</body>
+</html>
